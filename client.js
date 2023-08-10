@@ -16,12 +16,8 @@ const connect = function() {
   // Connect the event handler
   conn.on('connect', () => {
     console.log('Connection to game server has been successful');
-    
-    // Print name command message to server
-    conn.write('Name: DLH');
 
   });
-
   return conn;
 };
 
@@ -29,6 +25,15 @@ module.exports = {
   connect
 };
 
+
+/* "hard-core code": Used setInterval() to send the move up command (automatically) to game server.
+setInterval(() => {
+  conn.write('Move: up');
+   }, 50);
+  });
+  conn.write('Move: up');
+return conn;
+*/
 
 
 
