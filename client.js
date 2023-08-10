@@ -13,6 +13,15 @@ const connect = function() {
     console.log(data);
   });
 
+  // Connect the event handler
+  conn.on('connect', () => {
+    console.log('Connection to game server has been successful');
+    
+    // Print name command message to server
+    conn.write('Name: DLH');
+
+  });
+
   return conn;
 };
 
