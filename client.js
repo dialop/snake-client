@@ -1,5 +1,5 @@
 // client.js
-const net = require("net");
+const net = require('net');
 
 const connect = function() {
   const conn = net.createConnection({
@@ -7,7 +7,7 @@ const connect = function() {
     port: '50541'
   });
 
-  conn.setEncoding("utf8");
+  conn.setEncoding('utf8');
 
   conn.on('data', (data) => {
     console.log(data);
