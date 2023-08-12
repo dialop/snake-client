@@ -12,7 +12,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Alt text](<Snake Screenshot.png>) ![Alt text](<Snake Screeenshot  JUSSST.png>)
+![Alt text](screenshots/Snake_Screenshot_1.png) ![Alt text](screenshots/Snake_Screenshot_2.png)
 
 ## Getting Started
 
