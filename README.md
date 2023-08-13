@@ -30,7 +30,7 @@ Before you can run this client, you will need to be running the server side whic
 - npm run play
 ```
 
-#### Step 2: Clone the client [snake-client](git@github.com:dialop/snake-client.git):
+#### Step 2: Clone the client [snake-client](https://github.com/dialop/snake-client.git):
 
 ```bash
 - npm install @dialop/snake-client
