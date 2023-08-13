@@ -47,7 +47,7 @@ Before you can run this client, you will need to be running the server side whic
 
 - Run the snake client using the `npm run play` command
 
-#### Use the following keys on keyboard to navigate the game
+#### Use the following keys on keyboard to navigate the game:
 
 | Key        | Command                                    |
 | ---------- | ------------------------------------------ |
