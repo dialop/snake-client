@@ -35,7 +35,6 @@ Before you can run this client, you will need to be running the server side whic
 ```bash
 - npm install @dialop/snake-client
 
-
 - cd snake-client
 
 - npm install
