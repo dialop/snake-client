@@ -1,11 +1,5 @@
 // input.js
-
-const { connect } = require('./client');
-
-const cannedMessages = {
-  '1': 'Don\'t hiss me off!',  //When you press key in keyboard "1" msg should appear
-  '2': 'Jussssst Right'
-};
+const constants = require('./constants');
 
 // Initialization of connect variable
 let connection;
@@ -44,7 +38,7 @@ const handleUserInput = function(key) {
     process.exit();  // Terminate game
   }
 
-  const message = cannedMessages[key];
+  const message = constants.cannedMessages[key];
   if (message) {
     connection.write(`Say: ${message}`);
 

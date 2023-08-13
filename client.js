@@ -17,7 +17,7 @@ const connect = function() {
   // Connect the event handler
   conn.on('connect', () => {
     console.log('Connection to game server has been successful');
-
+    conn.write('Name: D.L');
   });
   return conn;
 };
